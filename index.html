@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <style type="text/css">
+        body{
+          font-family: 'Roboto', sans-serif;
+
+        }
+        .down{
+          background-color: #d34e4c;
+          border: none;
+          color: #fff;
+          text-align: center;
+          text-decoration: none;
+          font-size: 14px;
+          padding: 10px;
+          font-weight: 100;
+        }
+        
+        </style>
+
+        <div class="section">
+          <div class="container" style="text-align: center;">
+            <h3 style="color: #c3c3c3;font-weight: 300">HACK4PEOPLE</h3>
+            <h6 style="color: #c1c1c1;font-weight: 100;margin-top: -1rem;font-size: 10px;letter-spacing: 1.7px;">SMART TECHNOLOGIES AGAINST CORRUPTION</h6>
+          </div>
+          
+        </div>
+
+        <div class="section">
+          <div class="container" style="text-align: center;">
+            <canvas id="c5" width="512" height = "512" style="border:solid 1px #ccc;width: 100%"></canvas>
+          </div>
+        </div>
+        <div class="section">
+          <div class="row container" style="text-align: center;">
+          <h5>STEP 1: UPLOAD YOUR PROFILE</h5>
+            <div class="col s12 m12 l12">
+                <input class="down" type="file" name="pic" id="img" accept="image/*">
+
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="row container" style="text-align: center;">
+          <h5>STEP 2: ADD THE HACK4PEOPLE FILTER</h5>
+            <div class="col s12 m12 l12">
+                <a class="down" >Add Filter</a>
+
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="row container" style="text-align: center;">
+          <h5>STEP 3: DOWNLOAD THE PHOTO</h5>
+            <div class="col s12 m12 l12">
+                <a class="down" href="#" id="download">Download as image</a>
+
+            </div>
+          </div>
+        </div>
+
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+              $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+      </script>
+    </body>
+  </html>
